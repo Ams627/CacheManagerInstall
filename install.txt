@@ -1,0 +1,62 @@
+Each package is licensed to you by its owner. NuGet is not responsible for, nor does it grant any licenses to, third-party packages. Some packages may include dependencies which are governed by additional licenses. Follow the package source (feed) URL to determine any dependencies.
+
+Package Manager Console Host Version 5.9.0.6931
+
+Type 'get-help NuGet' to see all available NuGet commands.
+
+PM> Install-Package EnterpriseLibrary.Caching -Version 5.0.505
+
+
+Attempting to gather dependency information for package 'EnterpriseLibrary.Caching.5.0.505' with respect to project 'Cache1', targeting '.NETFramework,Version=v4.7.2'
+Gathering dependency information took 8.04 sec
+Attempting to resolve dependencies for package 'EnterpriseLibrary.Caching.5.0.505' with DependencyBehavior 'Lowest'
+Resolving dependency information took 0 ms
+Resolving actions to install package 'EnterpriseLibrary.Caching.5.0.505'
+Resolved actions to install package 'EnterpriseLibrary.Caching.5.0.505'
+Retrieving package 'CommonServiceLocator 1.0.0' from 'nuget.org'.
+Retrieving package 'EnterpriseLibrary.Caching 5.0.505' from 'nuget.org'.
+Retrieving package 'EnterpriseLibrary.Common 5.0.505' from 'nuget.org'.
+Retrieving package 'Unity 2.1.505' from 'nuget.org'.
+Retrieving package 'Unity.Interception 2.1.505' from 'nuget.org'.
+  GET https://api.nuget.org/v3-flatcontainer/unity.interception/2.1.505/unity.interception.2.1.505.nupkg
+  GET https://api.nuget.org/v3-flatcontainer/enterpriselibrary.caching/5.0.505/enterpriselibrary.caching.5.0.505.nupkg
+  GET https://api.nuget.org/v3-flatcontainer/enterpriselibrary.common/5.0.505/enterpriselibrary.common.5.0.505.nupkg
+  GET https://api.nuget.org/v3-flatcontainer/unity/2.1.505/unity.2.1.505.nupkg
+  GET https://api.nuget.org/v3-flatcontainer/commonservicelocator/1.0.0/commonservicelocator.1.0.0.nupkg
+  OK https://api.nuget.org/v3-flatcontainer/unity.interception/2.1.505/unity.interception.2.1.505.nupkg 23ms
+  OK https://api.nuget.org/v3-flatcontainer/enterpriselibrary.common/5.0.505/enterpriselibrary.common.5.0.505.nupkg 33ms
+Installing EnterpriseLibrary.Common 5.0.505.
+Installing Unity.Interception 2.1.505.
+  OK https://api.nuget.org/v3-flatcontainer/unity/2.1.505/unity.2.1.505.nupkg 195ms
+Installing Unity 2.1.505.
+  OK https://api.nuget.org/v3-flatcontainer/enterpriselibrary.caching/5.0.505/enterpriselibrary.caching.5.0.505.nupkg 626ms
+Installing EnterpriseLibrary.Caching 5.0.505.
+  OK https://api.nuget.org/v3-flatcontainer/commonservicelocator/1.0.0/commonservicelocator.1.0.0.nupkg 668ms
+Installing CommonServiceLocator 1.0.0.
+Adding package 'CommonServiceLocator.1.0.0' to folder 'R:\temp\Cache1\packages'
+Added package 'CommonServiceLocator.1.0.0' to folder 'R:\temp\Cache1\packages'
+Added package 'CommonServiceLocator.1.0.0' to 'packages.config'
+Successfully installed 'CommonServiceLocator 1.0.0' to Cache1
+Adding package 'Unity.2.1.505' to folder 'R:\temp\Cache1\packages'
+Added package 'Unity.2.1.505' to folder 'R:\temp\Cache1\packages'
+Added package 'Unity.2.1.505' to 'packages.config'
+Executing script file 'R:\temp\Cache1\packages\Unity.2.1.505.0\tools\install.ps1'
+Successfully installed 'Unity 2.1.505' to Cache1
+Adding package 'Unity.Interception.2.1.505' to folder 'R:\temp\Cache1\packages'
+Added package 'Unity.Interception.2.1.505' to folder 'R:\temp\Cache1\packages'
+Added package 'Unity.Interception.2.1.505' to 'packages.config'
+Executing script file 'R:\temp\Cache1\packages\Unity.Interception.2.1.505.0\tools\install.ps1'
+Successfully installed 'Unity.Interception 2.1.505' to Cache1
+Adding package 'EnterpriseLibrary.Common.5.0.505' to folder 'R:\temp\Cache1\packages'
+Added package 'EnterpriseLibrary.Common.5.0.505' to folder 'R:\temp\Cache1\packages'
+Added package 'EnterpriseLibrary.Common.5.0.505' to 'packages.config'
+Executing script file 'R:\temp\Cache1\packages\EnterpriseLibrary.Common.5.0.505.0\tools\install.ps1'
+Successfully installed 'EnterpriseLibrary.Common 5.0.505' to Cache1
+Adding package 'EnterpriseLibrary.Caching.5.0.505' to folder 'R:\temp\Cache1\packages'
+Added package 'EnterpriseLibrary.Caching.5.0.505' to folder 'R:\temp\Cache1\packages'
+Added package 'EnterpriseLibrary.Caching.5.0.505' to 'packages.config'
+Executing script file 'R:\temp\Cache1\packages\EnterpriseLibrary.Caching.5.0.505.0\tools\install.ps1'
+Successfully installed 'EnterpriseLibrary.Caching 5.0.505' to Cache1
+Executing nuget actions took 2.6 sec
+Time Elapsed: 00:00:10.8161515
+PM> 
